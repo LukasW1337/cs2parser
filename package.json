@@ -38,7 +38,6 @@
 		"test:watch": "bun test --watch --timeout 300000",
 		"test:coverage": "bun test --coverage --timeout 300000",
 		"prepublishOnly": "npm run lint && npm run format:check && npm run build",
-		"prepare": "husky",
 		"generate:entities": "bun scripts/generate-entity-types.ts",
 		"generate:events": "bun scripts/generate-event-types.ts",
 		"generate:protos": "bun scripts/generate-protos.ts",
